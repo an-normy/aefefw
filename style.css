@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 85, 85);
+}
+.playersInput {
+    background-color: brown;
+    width: 25%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border-bottom: 10px solid #AA4465;
+    border-top: 10px solid #AA4465;
+    border-left: 10px solid #AA4465;
+    border-right: 10px solid #AA4465;
+}
+#nextPage {
+    width: 10%;
+    height: 70px;
+    background-color: brown;
+    font-size: 30px;
+    border-bottom: 10px solid #AA4465;
+    border-top: 10px solid #AA4465;
+    border-left: 10px solid #AA4465;
+    border-right: 10px solid #AA4465;
+    border-radius: 25px;
+}
+
+#playerOneInput {
+    height: 30px;
+}

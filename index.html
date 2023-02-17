@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Page</title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="game.css">
+    <!-- Javascript link -->
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <center>
+        <h1>Game Page</h1>
+        <h3>Player 1: <span id="player1_name"></span> - <span id="player1_score"></span></h3>
+        <h3>Player 2: <span id="player2_name"></span> - <span id="player2_score"></span></h3>
+        <h4 id="player_question"></h4>
+        <h4>Answer: <input type="number" id="input_check_box"></h4>
+        <button class="btn btn-info" onclick="check()">Check</button>
+        <br><br>
+        <h4 id="output"></h4>
+        <h4>Player 1 Score: <span id="player1_score"></span></h4>
+        <h4>Player 2 Score: <span id="player2_score"></span></h4>
+        <br>
+        <h4>Number 1: <input type="number" id="number1"></h4>
+        <h4>Number 2: <input type="number" id="number2"></h4>
+        <br>
+        <button class="btn btn-success" onclick="send()">Send</button>
+      </center>
+    </div>
+  </body>
+</html>
